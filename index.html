@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript DOM</title>
+</head>
+<body>
+    
+    <div class="testDiv" id="testDiv">
+
+        <span>Test Span</span>
+        <h2>Test h2</h2>
+
+    </div>
+
+
+    <section>
+        =======
+        <span>Test Span</span>
+        =======
+        <h2>Test h2</h2>
+        ======
+    </section>
+
+
+    <script>
+        // let hElement = document.createElement('h1'); //<h1>This is DOM</h1>
+        // hElement.innerHTML = 'This is DOM';
+
+        // let name = 'MOU';
+        // document.body.appendChild(hElement);
+        // document.body.append(name); //Hello World
+        // document.body.appendChild(name); // element=>tag
+
+        let pElement = document.createElement('p');  //<p></p>
+
+        pElement.innerHTML = 'This is a P tag';
+
+        let divElement = document.querySelector('.testDiv');
+        let spanElement = document.querySelector('span');
+        divElement.insertBefore(pElement, spanElement);
+    </script>
+</body>
+</html>

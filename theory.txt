@@ -1,0 +1,11 @@
+
+
+
+
+=>DOM = Document Object Model
+=>BOM = Browser Object Model
+
+
+=============DOM=============
+
+DOM Manupulation => Object (Create Read Update Delete)=>CRUD
